@@ -1,0 +1,25 @@
+{
+	"version": "0.2",
+	"ignorePaths": [
+		"node_modules/**",
+		"**/vendor/**",
+		"temp/**",
+		"build/**",
+		"dist/**"
+	],
+	"minWordLength": 4,
+	"allowCompoundWords": true,
+	"dictionaryDefinitions": [
+		{
+			"name": "Common",
+			"path": "./.cspell/Common.txt",
+			"addWords": true
+		}
+	],
+	"dictionaries": [
+		"Common"
+	],
+	"words": [],
+	"ignoreWords": [],
+	"import": []
+}

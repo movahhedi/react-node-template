@@ -1,0 +1,176 @@
+@use "config" as *;
+
+*,
+*::before,
+*::after {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	// text-decoration: none;
+	border: unset;
+	box-sizing: border-box;
+	list-style-type: none;
+	user-select: none;
+}
+
+html {
+	height: 100%;
+	font-size: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	display: block;
+	height: 100%;
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+div,
+section,
+span,
+img,
+button,
+figure,
+i,
+label,
+li {
+	user-select: none;
+}
+
+div,
+h3,
+h2,
+h1,
+h4,
+h5,
+h6,
+form,
+a,
+input,
+textarea,
+body,
+button,
+ul,
+img,
+select,
+option,
+p,
+figure {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	border: none;
+	list-style-type: none;
+}
+
+ol li {
+	display: list-item;
+	list-style-type: decimal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="text"] {
+	user-select: text;
+}
+
+button,
+select,
+option {
+	cursor: pointer;
+}
+
+*:focus,
+input:focus,
+button:focus,
+textarea {
+	outline: none;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+// TODO Implement Arrow (http://jsfiddle.net/d6jhpo7v/)
+
+// select {
+// 	-webkit-appearance: none;
+// 	appearance: none;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label,
+title,
+li,
+button,
+input,
+textarea {
+	font-size: $Type-Paragraph-Regular;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: $Type-H1;
+}
+
+h2 {
+	font-size: $Type-H2;
+}
+
+h3 {
+	font-size: $Type-H3;
+}
+
+h4 {
+	font-size: $Type-H4;
+}
+
+h5 {
+	font-size: $Type-H5;
+}
+
+h6 {
+	font-size: $Type-H6;
+}
+
+p,
+li {
+	font-size: $Type-Paragraph-Regular;
+}
+
+button {
+	font-size: $Type-Button-Regular;
+}
+
+input,
+textarea {
+	font-size: $Type-Input-Regular;
+}
+
+span,
+label,
+title {
+	font-size: $Type-Caption-Regular;
+}

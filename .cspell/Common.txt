@@ -1,0 +1,17 @@
+frontend
+backend
+htdocs
+Login
+Signup
+Segoe
+Vazir
+Vazirmatn
+Shamsi
+Jalali
+samesite
+httponly
+ERRMODE
+tsify
+esbuild
+wamp
+xampp

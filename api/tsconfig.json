@@ -1,0 +1,28 @@
+{
+	// "files": ["src/main.ts"],
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"target": "es2020",
+		"module": "es2020",
+		"lib": ["ES2019", "DOM", "DOM.Iterable"],
+		"moduleResolution": "node",
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"outDir": "../build-api",
+		"declaration": true,
+		// "outFile": "script.js",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"typeRoots": ["./node_modules/@types", "./@types"],
+		"strict": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "**/*.spec.ts"],
+	"ts-node": {
+		"esm": true
+	}
+}

@@ -1,0 +1,118 @@
+@use "config" as *;
+
+.Ltr {
+	direction: ltr;
+	text-align: start;
+}
+
+.Rtl {
+	direction: rtl;
+	text-align: start;
+}
+
+.TextAlign-Start {
+	text-align: start;
+}
+
+.TextAlign-End {
+	text-align: end;
+}
+
+/* *:dir(rtl) { */
+
+*[dir="rtl"] {
+	font-family: $Font-Persian;
+}
+
+*[dir="ltr"] {
+	font-family: $Font-English;
+}
+
+.English {
+	direction: ltr;
+	text-align: start;
+	font-family: $Font-English;
+}
+
+.Persian {
+	direction: rtl;
+	text-align: start;
+	font-family: $Font-Persian;
+}
+
+.Arabic {
+	direction: rtl;
+	text-align: start;
+	font-family: $Font-Arabic;
+}
+
+.Bold {
+	font-weight: bold;
+}
+
+code,
+.EnglishMono,
+.Mono {
+	direction: ltr;
+	text-align: left;
+	font-family: $Font-Mono;
+}
+
+.IsClickable {
+	cursor: pointer;
+}
+
+.Outlined {
+	border: 1px solid $Color-Accent;
+}
+
+.GlowLichen {
+	border: 1px solid $Color-Warning;
+}
+
+.Border {
+	border: 1px solid $Color-Accent;
+}
+
+.Border-Blue {
+	border: 1px solid $Color-Accent;
+	border-color: $Color-Accent;
+}
+
+.Border-Green {
+	border: 1px solid $Color-Success;
+	border-color: $Color-Success;
+}
+
+.Border-Red {
+	border: 1px solid $Color-Error;
+	border-color: $Color-Error;
+}
+
+.Border-Yellow {
+	border: 1px solid $Color-Warning;
+	border-color: $Color-Warning;
+}
+
+.Border-White {
+	border: 1px solid $Color-White;
+	border-color: $Color-White;
+}
+
+@keyframes FadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes FadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

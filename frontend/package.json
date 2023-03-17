@@ -1,0 +1,45 @@
+{
+	"name": "react-node-template",
+	"version": "0.0.0",
+	"type": "module",
+	"main": "src/index.html",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite --force",
+		"server": "php -S 0.0.0.0:8000 -t=\"./src/api\"",
+		"preview": "vite preview",
+		"build": "tsc --noEmit && vite build --force",
+		"production": "vite build --force",
+		"types": "tsc --noEmit",
+		"lint:styles": "stylelint \"./src/**/*.scss\" --fix --config \"./stylelint.config.cjs\"",
+		"lint:scripts": "eslint \"./src/\" --ext \".ts,.tsx,.js,.jsx\" --fix"
+	},
+	"license": "UNLICENSED",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.55.0",
+		"@typescript-eslint/parser": "^5.55.0",
+		"@vitejs/plugin-react": "^3.1.0",
+		"@vitejs/plugin-legacy": "^4.0.2",
+		"eslint": "^8.36.0",
+		"eslint-config-prettier": "^8.7.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.4",
+		"sass": "^1.59.3",
+		"stylelint": "^15.3.0",
+		"stylelint-config-standard-scss": "^7.0.1",
+		"stylelint-order": "^6.0.3",
+		"stylelint-scss": "^4.5.0",
+		"terser": "^5.16.6",
+		"through2": "^4.0.2",
+		"typescript": "^5.0.2",
+		"vite": "^4.2.0"
+	}
+}

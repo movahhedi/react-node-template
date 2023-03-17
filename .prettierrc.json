@@ -1,0 +1,17 @@
+{
+	"trailingComma": "all",
+	"eslintIntegration": true,
+	"useTabs": true,
+	"tabWidth": 4,
+	"doubleQuote": true,
+	"semi": true,
+	"printWidth": 128,
+	"singleQuote": false,
+	"singleAttributePerLine": false,
+	"jsxSingleQuote": false,
+	"jsxDoubleQuote": true,
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"endOfLine": "crlf",
+	"htmlWhitespaceSensitivity": "strict"
+}

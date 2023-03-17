@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"target": "es2020",
+		"module": "es2020",
+		"lib": ["ES2019", "DOM", "DOM.Iterable"],
+		"moduleResolution": "node",
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"typeRoots": [
+			"./node_modules/@types",
+			"./@types"
+		],
+		"types": [
+			"vite/client",
+			"jquery"
+		],
+		"useDefineForClassFields": true,
+		"allowJs": false,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src"],
+	"references": [{ "path": "./tsconfig.node.json" }],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}
+
