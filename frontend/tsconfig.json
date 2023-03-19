@@ -16,8 +16,7 @@
 			"./@types"
 		],
 		"types": [
-			"vite/client",
-			"jquery"
+			// "vite/client"
 		],
 		"useDefineForClassFields": true,
 		"allowJs": false,
@@ -26,10 +25,9 @@
 		"forceConsistentCasingInFileNames": true,
 		"isolatedModules": true,
 		"noEmit": true,
-		"jsx": "react-jsx"
+		"jsx": "react"
 	},
 	"include": ["src"],
 	"references": [{ "path": "./tsconfig.node.json" }],
 	"exclude": ["node_modules", "**/*.spec.ts"]
 }
-
